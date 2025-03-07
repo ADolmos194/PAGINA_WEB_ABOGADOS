@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <g id="linkedin" transform="translate(0.166 -0.064)">
+    <rect id="Rectángulo_26" data-name="Rectángulo 26" width="29" height="29" transform="translate(-0.166 0.064)" fill="#c9c3be"/>
+    <g id="Grupo_39" data-name="Grupo 39" transform="translate(4.314 4.387)">
+      <path id="Trazado_54" data-name="Trazado 54" d="M71.281,69.215a2.417,2.417,0,1,1-2.434,2.414A2.427,2.427,0,0,1,71.281,69.215Z" transform="translate(-68.847 -69.215)" fill="#333"/>
+      <path id="Trazado_55" data-name="Trazado 55" d="M77.7,188.094H74.867a.666.666,0,0,1-.666-.666V175.337a.666.666,0,0,1,.666-.666H77.7a.666.666,0,0,1,.666.666v12.091A.666.666,0,0,1,77.7,188.094Z" transform="translate(-73.862 -167.987)" fill="#333"/>
+      <path id="Trazado_56" data-name="Trazado 56" d="M194.528,173.852a4.59,4.59,0,0,0-4.59-4.59h-.727a4.083,4.083,0,0,0-3.572,2.108l-.038,0v-1.484a.277.277,0,0,0-.277-.277h-3.536a.277.277,0,0,0-.276.277v12.871a.276.276,0,0,0,.276.277H185.4a.276.276,0,0,0,.277-.277v-7.436a2.357,2.357,0,0,1,2.31-2.367,2.337,2.337,0,0,1,2.364,2.337v7.466a.277.277,0,0,0,.276.277h3.622a.277.277,0,0,0,.277-.277v-8.9Z" transform="translate(-174.372 -162.921)" fill="#333"/>
+    </g>
+  </g>
+</svg>

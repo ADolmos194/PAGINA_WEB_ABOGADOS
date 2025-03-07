@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.291" height="48.579" viewBox="0 0 54.291 48.579">
+  <g id="Grupo_317" data-name="Grupo 317" transform="translate(-140 -334.996)">
+    <g id="Grupo_256" data-name="Grupo 256" transform="translate(140 334.996)">
+      <g id="Grupo_99" data-name="Grupo 99" transform="translate(27.093 24.29)">
+        <path id="Trazado_141" data-name="Trazado 141" d="M0,0V12.145L13.6,0Z" fill="#ef8000"/>
+        <path id="Trazado_142" data-name="Trazado 142" d="M13.6,0V12.145L0,0Z" transform="translate(13.599)" fill="#ef8000"/>
+      </g>
+      <g id="Grupo_101" data-name="Grupo 101" transform="translate(27.093 0)">
+        <path id="Trazado_144" data-name="Trazado 144" d="M0,0V12.145L13.6,0Z" fill="#ef8000"/>
+        <path id="Trazado_145" data-name="Trazado 145" d="M13.6,0V12.145L0,0Z" transform="translate(13.599)" fill="#ef8000"/>
+      </g>
+      <path id="Trazado_146" data-name="Trazado 146" d="M0,0,13.6,12.145,27.2,0Z" transform="translate(27.093 12.145)" fill="#ef8000"/>
+      <path id="Trazado_149" data-name="Trazado 149" d="M0,0,13.6,12.145,27.2,0Z" transform="translate(27.093 36.434)" fill="#ef8000"/>
+      <g id="Grupo_87" data-name="Grupo 87" transform="translate(27.197 24.289) rotate(180)">
+        <path id="Trazado_123" data-name="Trazado 123" d="M0,0V12.145L13.6,0Z" transform="translate(0 0)" fill="#ef8000"/>
+        <path id="Trazado_124" data-name="Trazado 124" d="M13.6,0V12.145L0,0Z" transform="translate(13.599 0)" fill="#ef8000"/>
+      </g>
+      <path id="Trazado_125" data-name="Trazado 125" d="M0,0,13.6,12.145,27.2,0Z" transform="translate(27.197 12.145) rotate(180)" fill="#ef8000"/>
+      <g id="Grupo_91" data-name="Grupo 91" transform="translate(27.197 48.579) rotate(180)">
+        <path id="Trazado_129" data-name="Trazado 129" d="M0,0V12.145L13.6,0Z" fill="#ef8000"/>
+        <path id="Trazado_130" data-name="Trazado 130" d="M13.6,0V12.145L0,0Z" transform="translate(13.599)" fill="#ef8000"/>
+      </g>
+      <path id="Trazado_137" data-name="Trazado 137" d="M0,0,13.6,12.145,27.2,0Z" transform="translate(27.197 36.434) rotate(180)" fill="#ef8000"/>
+    </g>
+  </g>
+</svg>
