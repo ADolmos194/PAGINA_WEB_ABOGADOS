@@ -1,17 +1,15 @@
-
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import Logo from '@assets/webanterior/logo.svg';
 import Espanol from '@assets/webanterior/es.png';
 import Ingles from '@assets/webanterior/gb.png';
-import sala_conferencia from "@assets/webanterior/image.jpg";
-import FundadorJoseCarlos from "@assets/webanterior/FundadorJoseCarlos.jpg";
-import FundadorFelipeBertorini from "@assets/webanterior/FundadorFelipeBertorini.jpg";
-import FundadorFernandoFort from "@assets/webanterior/FundadorFernandoFort.jpg"
 import logo_footer from "@assets/webanterior/logo-footer.svg";
-import Social from "@assets/webanterior/social.svg"
+import Social from "@assets/webanterior/social.svg";
+import SocioAlvaroVillalobosDiaz from "@assets/webanterior/SocioAlvaroVillalobos.jpg";
+import PDF_SocioAlvaroVillalobosDiaz from "@assets/pdf/socios/ALVARO-VILLALOBOS-DIAZ.pdf";
 
-export const Estudio = () => {
+export const AlvaroVillalobosDiaz = () => {
+
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -102,75 +100,45 @@ export const Estudio = () => {
                 <div id="wp_containerSlider-Page">
                     <div class="line-nav"></div>
                     <div class="layer-page">
-                        <h1>Nuestro Estudio</h1>
-                        <p>Fort, Bertorini &#038; Godoy Abogados S.A. (Fobego), es una empresa de servicios legales reconocida por su trayectoria y ética profesional, prestigio y experiencia forjada desde hace más de cuarenta y cuatro años de presencia activa en el Perú, contando con una cartera importante de clientes nacionales y extranjeros.
+                        <h1>Nuestros Abogados</h1>
+                        <p>Fort, Bertorini &#038; Godoy Abogados cuenta con un selecto staff de abogados especialistas en diversas áreas del derecho corporativo, junto con reconocidas habilidades como litigantes; quienes permiten ofrecer un alto nivel especializado de servicios legales, a personas naturales y jurídicas.
                         </p>
                     </div>
                 </div>
-                <div id="wp_containerContent-Page">
-                    <div class="wp_center">
-                        <p>El Estudio se denomina «Fort, Bertorini &#038; Godoy Abogados» ¨FOBEGO¨ y las áreas principales en las que presta servicios son: asuntos corporativos, bancarios, financieros, de seguros, contratos en general, tributarios, inversión extranjera, privatizaciones, propiedad industrial e intelectual, navieros, mineros, industriales, inmobiliarios, laborales, administrativos, concurso de acreedores, ambientales, judiciales, comerciales, telecomunicaciones, familiares, licitaciones públicas y privadas, legislación educativa y asuntos en general.</p>
-                        <p>El Estudio fue fundado en 1977 y ofrece desde entonces los servicios legales mencionados en el párrafo precedente. Cuenta con una extensa cartera de clientes tanto locales, como extranjeros. Adicionalmente, a los Socios Fundadores se ha incorporado a la sociedad a los abogados doctores Álvaro Villalobos Díaz, George González Acosta, y Renzo Inga Miranda quienes tienen a su cargo fundamentalmente el área Procesal, Tributaria, Corporativa y de Propiedad Intelectual, respectivamente. El testimonio y reconocimiento de nuestros clientes representan una garantía en la calidad de los servicios brindados lograda a través de más de cuarenta años de trayectoria profesional.<br />
-                        </p>		</div>
-                </div>
-                <div id="wp_containerImage-Page">
-                    <div class="wp_center">
-                        <img src={sala_conferencia} alt="sala_conferencia" />
-                        <div class="line-image"></div>
-                    </div>
-                </div>
 
-                <div id="wp_containerList-Staff">
-                    <div class="wp_center">
-                        <h2>Fundadores</h2>
-                        <div class="row-item-staff">
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador1">
-                                        <img src={FundadorJoseCarlos} alt="FundadorJoseCarlos" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>José Carlos Godoy Lacoste
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador1" class="button-staff">Ver Perfil</a>
+                <div id="wp_container_staff">
+                    <div class="wp_center wp_flexbox-top">
+                        <div class="column-left-staff">
+                            <div class="row-image-staff">
+                                <img src={SocioAlvaroVillalobosDiaz} alt="" />
                             </div>
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador2">
-                                        <img src={FundadorFelipeBertorini} alt="FundadorFelipeBertorini" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>Felipe Bertorini Guibert
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador2" class="button-staff">Ver Perfil</a>
+                            <a href="/abogados">Volver</a>
+                        </div>
+                        <div class="column-right-staff">
+                            <h2>Alvaro Villalobos Díaz</h2>
+                            <span>Socio Fundador
+                            </span>
+                            <div class="data-staff">
+                                <ul>
+                                    <li>avillalobos@fobego.com.pe
+                                    </li>
+                                    <li>Tel.(01) 442 4646 / +51 999 968 880
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador3">
-                                        <img src={FundadorFernandoFort} alt="FundadorFernandoFort" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>Fernando Fort Marie
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador3" class="button-staff">Ver Perfil</a>
+                            <div class="theContent-staff">
+                                <p>Asuntos de procesos judiciales, corporativos, derecho de familia, laborales, administrativos.</p>
+                                <p>Idiomas: español, inglés y alemán.</p>
                             </div>
 
+                            <a href={PDF_SocioAlvaroVillalobosDiaz} target="_blank" rel="noopener noreferrer" class="button-pdf">Descargar CV </a>
+
+                            <a href="/abogados" class="button-movil">Volver</a>
                         </div>
                     </div>
                 </div>
             </section>
+
             <footer>
                 <div className="wp_center wp_flexbox">
                     <div className="row-footer row-logo-footer">
@@ -182,7 +150,7 @@ export const Estudio = () => {
                             <span>Av. Camino Real 456, Torre Real, Interior 1301, San Isidro
                             </span>
                             <a href="tel:989 030 290
-            ">
+                        ">
                                 Telf.					989 030 290
                             </a>
                         </div>

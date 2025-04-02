@@ -1,25 +1,50 @@
-
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import Logo from '@assets/webanterior/logo.svg';
 import Espanol from '@assets/webanterior/es.png';
 import Ingles from '@assets/webanterior/gb.png';
-import sala_conferencia from "@assets/webanterior/image.jpg";
-import FundadorJoseCarlos from "@assets/webanterior/FundadorJoseCarlos.jpg";
-import FundadorFelipeBertorini from "@assets/webanterior/FundadorFelipeBertorini.jpg";
-import FundadorFernandoFort from "@assets/webanterior/FundadorFernandoFort.jpg"
 import logo_footer from "@assets/webanterior/logo-footer.svg";
-import Social from "@assets/webanterior/social.svg"
+import Social from "@assets/webanterior/social.svg";
+import Linkedin from "@assets/webanterior/linkedin.svg"
+import emailjs from "@emailjs/browser";
 
-export const Estudio = () => {
+export const Contacto = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const [formData, setFormData] = useState({
+        Nombres: '',
+        Correo: '',
+        Asunto: '',
+        Mensaje: ''
+    });
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.send(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            formData,
+            process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        )
+            .then(() => {
+                alert("Correo enviado con éxito!");
+                setFormData({ Nombres: "", Correo: "", Asunto: "", Mensaje: "" });
+            })
+            .catch((error) => console.error("Error al enviar el correo:", error));
+    };
+
     return (
         <>
+
             <header>
                 <div className="wp_center wp_flexbox">
                     <div className="wp_containerLogo">
@@ -102,75 +127,131 @@ export const Estudio = () => {
                 <div id="wp_containerSlider-Page">
                     <div class="line-nav"></div>
                     <div class="layer-page">
-                        <h1>Nuestro Estudio</h1>
-                        <p>Fort, Bertorini &#038; Godoy Abogados S.A. (Fobego), es una empresa de servicios legales reconocida por su trayectoria y ética profesional, prestigio y experiencia forjada desde hace más de cuarenta y cuatro años de presencia activa en el Perú, contando con una cartera importante de clientes nacionales y extranjeros.
+                        <h1>Contáctanos</h1>
+                        <p>Si usted desea recibir mayor información o si tiene alguna consulta, sugerencia o comentario, sírvase llenar el siguiente formulario.
                         </p>
                     </div>
                 </div>
-                <div id="wp_containerContent-Page">
-                    <div class="wp_center">
-                        <p>El Estudio se denomina «Fort, Bertorini &#038; Godoy Abogados» ¨FOBEGO¨ y las áreas principales en las que presta servicios son: asuntos corporativos, bancarios, financieros, de seguros, contratos en general, tributarios, inversión extranjera, privatizaciones, propiedad industrial e intelectual, navieros, mineros, industriales, inmobiliarios, laborales, administrativos, concurso de acreedores, ambientales, judiciales, comerciales, telecomunicaciones, familiares, licitaciones públicas y privadas, legislación educativa y asuntos en general.</p>
-                        <p>El Estudio fue fundado en 1977 y ofrece desde entonces los servicios legales mencionados en el párrafo precedente. Cuenta con una extensa cartera de clientes tanto locales, como extranjeros. Adicionalmente, a los Socios Fundadores se ha incorporado a la sociedad a los abogados doctores Álvaro Villalobos Díaz, George González Acosta, y Renzo Inga Miranda quienes tienen a su cargo fundamentalmente el área Procesal, Tributaria, Corporativa y de Propiedad Intelectual, respectivamente. El testimonio y reconocimiento de nuestros clientes representan una garantía en la calidad de los servicios brindados lograda a través de más de cuarenta años de trayectoria profesional.<br />
-                        </p>		</div>
-                </div>
-                <div id="wp_containerImage-Page">
-                    <div class="wp_center">
-                        <img src={sala_conferencia} alt="sala_conferencia" />
-                        <div class="line-image"></div>
-                    </div>
-                </div>
-
-                <div id="wp_containerList-Staff">
-                    <div class="wp_center">
-                        <h2>Fundadores</h2>
-                        <div class="row-item-staff">
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador1">
-                                        <img src={FundadorJoseCarlos} alt="FundadorJoseCarlos" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>José Carlos Godoy Lacoste
-                                    </h3>
-                                    <span>Socio Fundador
+                <div id="wp_containerData-Maps">
+                    <div class="wp_center wp_flexbox-top">
+                        <div id="wp_container_Datos">
+                            <h2>Encuéntranos</h2>
+                            <ul>
+                                <li>
+                                    <strong>Dirección</strong>
+                                    <span>Av. Camino Real 456, Torre Real, Interior 1301, San Isidro
                                     </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador1" class="button-staff">Ver Perfil</a>
-                            </div>
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador2">
-                                        <img src={FundadorFelipeBertorini} alt="FundadorFelipeBertorini" />
+                                </li>
+                                <li>
+                                    <strong>Teléfono</strong>
+                                    <a href="tel:989 030 290">989 030 290
                                     </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>Felipe Bertorini Guibert
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador2" class="button-staff">Ver Perfil</a>
-                            </div>
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador3">
-                                        <img src={FundadorFernandoFort} alt="FundadorFernandoFort" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>Fernando Fort Marie
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador3" class="button-staff">Ver Perfil</a>
-                            </div>
+                                </li>
+                                <li>
+                                    <strong>Síguenos</strong>
+                                    <Link href="#"><img src={Linkedin} alt="Linkedin" /></Link>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="wp_container_Maps">
+                            <p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.205689408489!2d-77.0390912851869!3d-12.09806669143313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c843235286c5%3A0xfd132c7283f1813d!2sInterior%201301%2C%20Av.%20Camino%20Real%20456%2C%20San%20Isidro%2015073!5e0!3m2!1ses-419!2spe!4v1614173671806!5m2!1ses-419!2spe"
+                                    width="600"
+                                    height="450"
+                                    style={{ border: '' }}
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    title="Map showing the location of Interior 1301, Av. Camino Real 456, San Isidro"
+                                ></iframe>
+                            </p>
 
                         </div>
                     </div>
                 </div>
+                <div id="wp_container_Form">
+                    <div class="line-form"></div>
+                    <div class="wp_center wp_flexbox-top relative">
+                        <div class="column-form">
+                            <div class="wp_formTitle_Home">
+                                <h2>Escríbenos</h2>
+                                <div class="wp_textForm_Home">
+                                    <p>Si usted desea recibir mayor información o si tiene alguna consulta, sugerencia o comentario, sírvase llenar el siguiente formulario:
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="wp_containerField_Form_Home">
+
+                                <div className="wpcf7 no-js" id="wpcf7-f28-p158-o1" lang="en-US" dir="ltr">
+                                    <div className="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+                                    <form onSubmit={handleSubmit} method="post" className="wpcf7-form init" aria-label="Contact form" noValidate data-status="init">
+                                        <p>
+                                            <label>Nombre y Apellidos</label>
+                                            <span className="wpcf7-form-control-wrap" data-name="Nombres">
+                                                <input
+                                                    size="40"
+                                                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                    aria-required="true"
+                                                    value={formData.Nombres}
+                                                    onChange={handleChange}
+                                                    type="text"
+                                                    name="Nombres"
+                                                />
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <label>Correo Electrónico</label>
+                                            <span className="wpcf7-form-control-wrap" data-name="Correo">
+                                                <input
+                                                    size="40"
+                                                    className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                                                    aria-required="true"
+                                                    value={formData.Correo}
+                                                    onChange={handleChange}
+                                                    type="email"
+                                                    name="Correo"
+                                                />
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <label>Asunto</label>
+                                            <span className="wpcf7-form-control-wrap" data-name="Asunto">
+                                                <input
+                                                    size="40"
+                                                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                    aria-required="true"
+                                                    value={formData.Asunto}
+                                                    onChange={handleChange}
+                                                    type="text"
+                                                    name="Asunto"
+                                                />
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <label>Mensaje</label>
+                                            <span className="wpcf7-form-control-wrap" data-name="Mensaje">
+                                                <textarea
+                                                    cols="40"
+                                                    rows="10"
+                                                    className="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                                                    aria-required="true"
+                                                    value={formData.Mensaje}
+                                                    onChange={handleChange}
+                                                    name="Mensaje"
+                                                />
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <input className="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Enviar" />
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
+
             <footer>
                 <div className="wp_center wp_flexbox">
                     <div className="row-footer row-logo-footer">
@@ -182,7 +263,7 @@ export const Estudio = () => {
                             <span>Av. Camino Real 456, Torre Real, Interior 1301, San Isidro
                             </span>
                             <a href="tel:989 030 290
-            ">
+                        ">
                                 Telf.					989 030 290
                             </a>
                         </div>
@@ -228,4 +309,5 @@ export const Estudio = () => {
             </div>
         </>
     )
+
 }

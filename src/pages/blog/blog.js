@@ -1,17 +1,13 @@
-
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import Logo from '@assets/webanterior/logo.svg';
 import Espanol from '@assets/webanterior/es.png';
 import Ingles from '@assets/webanterior/gb.png';
-import sala_conferencia from "@assets/webanterior/image.jpg";
-import FundadorJoseCarlos from "@assets/webanterior/FundadorJoseCarlos.jpg";
-import FundadorFelipeBertorini from "@assets/webanterior/FundadorFelipeBertorini.jpg";
-import FundadorFernandoFort from "@assets/webanterior/FundadorFernandoFort.jpg"
 import logo_footer from "@assets/webanterior/logo-footer.svg";
-import Social from "@assets/webanterior/social.svg"
+import Social from "@assets/webanterior/social.svg";
+import imange_noticia1 from "@assets/webanterior/Imagen-noticia-n.jpg";
 
-export const Estudio = () => {
+export const Blog = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -98,79 +94,50 @@ export const Estudio = () => {
                 </div>
             </div>
 
+
             <section>
                 <div id="wp_containerSlider-Page">
                     <div class="line-nav"></div>
                     <div class="layer-page">
-                        <h1>Nuestro Estudio</h1>
-                        <p>Fort, Bertorini &#038; Godoy Abogados S.A. (Fobego), es una empresa de servicios legales reconocida por su trayectoria y ética profesional, prestigio y experiencia forjada desde hace más de cuarenta y cuatro años de presencia activa en el Perú, contando con una cartera importante de clientes nacionales y extranjeros.
+                        <h1>Blog</h1>
+                        <p>Fort, Bertorini &#038; Godoy Abogados, se encuentra en constante crecimiento en la era digital es por ello que hemos ampliado la interacción con nuestros clientes, manteniéndolos actualizados con las noticias más relevantes remitidas a través de notas jurídicas, vía WhastApp y correo electrónico.
                         </p>
                     </div>
                 </div>
-                <div id="wp_containerContent-Page">
-                    <div class="wp_center">
-                        <p>El Estudio se denomina «Fort, Bertorini &#038; Godoy Abogados» ¨FOBEGO¨ y las áreas principales en las que presta servicios son: asuntos corporativos, bancarios, financieros, de seguros, contratos en general, tributarios, inversión extranjera, privatizaciones, propiedad industrial e intelectual, navieros, mineros, industriales, inmobiliarios, laborales, administrativos, concurso de acreedores, ambientales, judiciales, comerciales, telecomunicaciones, familiares, licitaciones públicas y privadas, legislación educativa y asuntos en general.</p>
-                        <p>El Estudio fue fundado en 1977 y ofrece desde entonces los servicios legales mencionados en el párrafo precedente. Cuenta con una extensa cartera de clientes tanto locales, como extranjeros. Adicionalmente, a los Socios Fundadores se ha incorporado a la sociedad a los abogados doctores Álvaro Villalobos Díaz, George González Acosta, y Renzo Inga Miranda quienes tienen a su cargo fundamentalmente el área Procesal, Tributaria, Corporativa y de Propiedad Intelectual, respectivamente. El testimonio y reconocimiento de nuestros clientes representan una garantía en la calidad de los servicios brindados lograda a través de más de cuarenta años de trayectoria profesional.<br />
-                        </p>		</div>
-                </div>
-                <div id="wp_containerImage-Page">
-                    <div class="wp_center">
-                        <img src={sala_conferencia} alt="sala_conferencia" />
-                        <div class="line-image"></div>
-                    </div>
-                </div>
 
-                <div id="wp_containerList-Staff">
+                <div id="wp_container_post-Home">
                     <div class="wp_center">
-                        <h2>Fundadores</h2>
-                        <div class="row-item-staff">
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador1">
-                                        <img src={FundadorJoseCarlos} alt="FundadorJoseCarlos" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>José Carlos Godoy Lacoste
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador1" class="button-staff">Ver Perfil</a>
-                            </div>
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador2">
-                                        <img src={FundadorFelipeBertorini} alt="FundadorFelipeBertorini" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>Felipe Bertorini Guibert
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador2" class="button-staff">Ver Perfil</a>
-                            </div>
-                            <div class="column-staff">
-                                <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador3">
-                                        <img src={FundadorFernandoFort} alt="FundadorFernandoFort" />
-                                    </a>
-                                </div>
-                                <div class="content-staff">
-                                    <h3>Fernando Fort Marie
-                                    </h3>
-                                    <span>Socio Fundador
-                                    </span>
-                                </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador3" class="button-staff">Ver Perfil</a>
-                            </div>
 
+                        <div class="row-post-Home row-post-Blog">
+                            <ul>
+                                <li>
+                                    <div class="row-image-post">
+                                        <a href="/blog/noticias/noticia1/"><img src={imange_noticia1} alt="" /></a>
+                                    </div>
+                                    <div class="row-content-post">
+                                        <span>23.02.2021</span>
+                                        <h3>Actos que deben ser inscritos mediante la plataforma SID- SUNARP 2021</h3>
+                                        <p>Con fecha 05 de Junio del año en curso, ha sido publicado en el Diario Oficial el...</p>
+                                        <a href="/blog/noticias/noticia1/">Leer más</a>
+                                    </div>
+                                </li>
+
+                            </ul>
                         </div>
+
+                        {/* 
+            <div class="row-pagination">
+			<ul>
+			<li><a href="" class="active-pagination">01</a></li>
+			<li><a href="">02</a></li>
+			<li><a href="">03</a></li>
+			</ul>
+			</div> */}
                     </div>
                 </div>
             </section>
+
+
             <footer>
                 <div className="wp_center wp_flexbox">
                     <div className="row-footer row-logo-footer">
@@ -182,7 +149,7 @@ export const Estudio = () => {
                             <span>Av. Camino Real 456, Torre Real, Interior 1301, San Isidro
                             </span>
                             <a href="tel:989 030 290
-            ">
+                        ">
                                 Telf.					989 030 290
                             </a>
                         </div>
@@ -228,4 +195,5 @@ export const Estudio = () => {
             </div>
         </>
     )
+
 }
