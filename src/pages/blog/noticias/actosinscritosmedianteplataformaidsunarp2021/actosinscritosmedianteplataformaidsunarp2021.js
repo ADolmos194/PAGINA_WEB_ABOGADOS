@@ -7,7 +7,7 @@ import logo_footer from "@assets/webanterior/logo-footer.svg";
 import Social from "@assets/webanterior/social.svg";
 import imange_noticia1 from "@assets/webanterior/Imagen-noticia-n.jpg";
 
-export const Noticia1 = () => {
+export const Actosinscritosmedianteplataformaidsunarp2021 = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
 

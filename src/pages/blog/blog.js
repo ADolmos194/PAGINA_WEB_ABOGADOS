@@ -112,13 +112,13 @@ export const Blog = () => {
                             <ul>
                                 <li>
                                     <div class="row-image-post">
-                                        <a href="/blog/noticias/noticia1/"><img src={imange_noticia1} alt="" /></a>
+                                        <a href="/blog/noticias/actosinscritosmedianteplataformaidsunarp2021/"><img src={imange_noticia1} alt="" /></a>
                                     </div>
                                     <div class="row-content-post">
                                         <span>23.02.2021</span>
                                         <h3>Actos que deben ser inscritos mediante la plataforma SID- SUNARP 2021</h3>
                                         <p>Con fecha 05 de Junio del año en curso, ha sido publicado en el Diario Oficial el...</p>
-                                        <a href="/blog/noticias/noticia1/">Leer más</a>
+                                        <a href="/blog/noticias/actosinscritosmedianteplataformaidsunarp2021/">Leer más</a>
                                     </div>
                                 </li>
 

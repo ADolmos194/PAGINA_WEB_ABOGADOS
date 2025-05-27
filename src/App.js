@@ -10,7 +10,7 @@ import './App.css';
 import { AlvaroVillalobosDiaz } from './pages/abogados/perfilabogado/socios/AlvaroVillalobosDiaz/AlvaroVillalobosDiaz';
 import { RenzoIngaMiranda } from './pages/abogados/perfilabogado/socios/RenzoIngaMiranda/RenzoIngaMiranda';
 import { Blog } from './pages/blog/blog';
-import { Noticia1 } from './pages/blog/noticias/noticia1/noticia1';
+import { Actosinscritosmedianteplataformaidsunarp2021 } from './pages/blog/noticias/actosinscritosmedianteplataformaidsunarp2021/actosinscritosmedianteplataformaidsunarp2021';
 import { Contacto } from './pages/contacto/contacto';
 
 function App() {
@@ -67,9 +67,9 @@ function App() {
             <Blog></Blog>
           </>
         } />
-        <Route path="/blog/noticias/noticia1/" element={
+        <Route path="/blog/noticias/Actosinscritosmedianteplataformaidsunarp2021/" element={
           <>
-            <Noticia1></Noticia1>
+            <Actosinscritosmedianteplataformaidsunarp2021></Actosinscritosmedianteplataformaidsunarp2021>
           </>
         } />
         <Route path="/contacto" element={

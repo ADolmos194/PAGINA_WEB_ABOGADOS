@@ -126,7 +126,7 @@ export const Estudio = () => {
                         <div class="row-item-staff">
                             <div class="column-staff">
                                 <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador1">
+                                    <a href="/abogados/perfilabogado/fundadores/JoseCarlosGodoyLacoste">
                                         <img src={FundadorJoseCarlos} alt="FundadorJoseCarlos" />
                                     </a>
                                 </div>
@@ -136,11 +136,11 @@ export const Estudio = () => {
                                     <span>Socio Fundador
                                     </span>
                                 </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador1" class="button-staff">Ver Perfil</a>
+                                <a href="/abogados/perfilabogado/fundadores/JoseCarlosGodoyLacoste" class="button-staff">Ver Perfil</a>
                             </div>
                             <div class="column-staff">
                                 <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador2">
+                                    <a href="/abogados/perfilabogado/fundadores/FelipeBertoriniGuibert">
                                         <img src={FundadorFelipeBertorini} alt="FundadorFelipeBertorini" />
                                     </a>
                                 </div>
@@ -150,11 +150,11 @@ export const Estudio = () => {
                                     <span>Socio Fundador
                                     </span>
                                 </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador2" class="button-staff">Ver Perfil</a>
+                                <a href="/abogados/perfilabogado/fundadores/FelipeBertoriniGuibert" class="button-staff">Ver Perfil</a>
                             </div>
                             <div class="column-staff">
                                 <div class="image-staff">
-                                    <a href="/abogados/perfilabogado/fundadores/fundador3">
+                                    <a href="/abogados/perfilabogado/fundadores/FernandoFortMarie">
                                         <img src={FundadorFernandoFort} alt="FundadorFernandoFort" />
                                     </a>
                                 </div>
@@ -164,7 +164,7 @@ export const Estudio = () => {
                                     <span>Socio Fundador
                                     </span>
                                 </div>
-                                <a href="/abogados/perfilabogado/fundadores/fundador3" class="button-staff">Ver Perfil</a>
+                                <a href="/abogados/perfilabogado/fundadores/FernandoFortMarie" class="button-staff">Ver Perfil</a>
                             </div>
 
                         </div>
