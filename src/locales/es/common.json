@@ -1,0 +1,87 @@
+{
+    "estudio": "Estudio",
+    "abogados": "Abogados",
+    "servicios": "Servicios",
+    "blog": "Blog",
+    "contacto": "Contacto",
+    "slider1": {
+        "titulo": "47 años de experiencia legal estratégica.",
+        "subtitulo": "Desde 1977 brindamos asesoría jurídica a empresas e instituciones nacionales e internacionales.",
+        "boton": "Leer más"
+    },
+    "slider2": {
+        "titulo": "Tradición y enfoque contemporáneo.",
+        "subtitulo": "Ética, prestigio y experiencia al servicio de decisiones legales clave.",
+        "boton": "Leer más"
+    },
+    "serviciosDestacados": {
+        "titulo": "SERVICIOS DESTACADOS",
+        "introTitulo": "Asesoría legal especializada con visión estratégica.",
+        "introDescripcion": "Te acompañamos en la gestión jurídica de tus decisiones empresariales, con enfoque integral y profundo conocimiento técnico.",
+        "items": {
+            "corporativo": {
+                "titulo": "Derecho Corporativo y Societario",
+                "descripcion": "Constitución de empresas, contratos y reorganizaciones."
+            },
+            "litigios": {
+                "titulo": "Litigios, Arbitraje y Controversias",
+                "descripcion": "Defensa legal estratégica ante el Poder Judicial y tribunales arbitrales."
+            },
+            "propiedadIntelectual": {
+                "titulo": "Propiedad Intelectual y Datos Personales",
+                "descripcion": "Protección de marcas, activos intangibles y cumplimiento normativo digital."
+            },
+            "tributario": {
+                "titulo": "Derecho Tributario y Planeamiento Fiscal",
+                "descripcion": "Estrategias fiscales seguras y representación ante SUNAT."
+            }
+        },
+        "verTodos": "Ver más servicios"
+    },
+    "contactoFormulario": {
+        "titulo": "ESCRÍBENOS",
+        "descripcion": "Si usted desea recibir mayor información o si tiene alguna consulta, sugerencia o comentario, sírvase llenar el siguiente formulario:",
+        "nombre": "Nombre completo",
+        "correo": "Correo electrónico",
+        "asunto": "Asunto",
+        "mensaje": "Mensaje",
+        "acepto1": "Acepto la",
+        "privacidad": "Política de Privacidad",
+        "acepto2": "y autorizo el tratamiento de mis datos personales para ser contactado(a) por Fort, Bertorini & Godoy Abogados S.A.",
+        "terminos": "Términos y Condiciones",
+        "boton": "Enviar mensaje",
+        "visitanos": "VISÍTANOS",
+        "direccionLabel": "Dirección:",
+        "telefonoLabel": "Teléfono:",
+        "siguenos": "Síguenos:"
+    },
+    "modalPrivacidad": {
+        "titulo": "Política de Privacidad",
+        "actualizacion": "Última actualización: Junio 2025",
+        "texto1": "En cumplimiento de la Ley N.º 29733 – Ley de Protección de Datos Personales, informamos que los datos personales que usted proporcione a través de este sitio web serán tratados de forma confidencial y segura.",
+        "seccion1": "1. Finalidad del tratamiento",
+        "texto2": "La información será utilizada únicamente para dar respuesta a consultas, enviar información solicitada o establecer contacto profesional con Fort, Bertorini & Godoy Abogados S.A.",
+        "seccion2": "2. Conservación de los datos",
+        "texto3": "Los datos serán almacenados mientras duren las finalidades mencionadas, salvo solicitud expresa de eliminación por parte del titular.",
+        "seccion3": "3. Seguridad",
+        "texto4": "Aplicamos medidas técnicas y organizativas para proteger su información frente a accesos no autorizados.",
+        "seccion4": "4. Derechos del titular",
+        "texto5": "Usted puede ejercer sus derechos de acceso, rectificación, cancelación u oposición (ARCO), enviando una solicitud al correo: contacto@fobego.com.pe",
+        "seccion5": "5. Consentimiento",
+        "texto6": "Al enviar un formulario, usted acepta esta política y otorga su consentimiento para el tratamiento de sus datos."
+    },
+    "modalTerminos": {
+        "titulo": "Términos y Condiciones de Uso",
+        "actualizacion": "Última actualización: Junio 2025",
+        "texto1": "Este sitio web es operado por Fort, Bertorini & Godoy Abogados S.A. Al acceder o utilizar el sitio www.fobego.com.pe, usted acepta los presentes términos y condiciones. Si no está de acuerdo, por favor abstenerse de utilizar este sitio.",
+        "seccion1": "1. Uso del sitio",
+        "texto2": "El contenido de este sitio tiene fines exclusivamente informativos. No constituye asesoría legal ni genera una relación abogado-cliente. Para obtener asesoría específica, contáctese directamente con nuestro estudio.",
+        "seccion2": "2. Propiedad intelectual",
+        "texto3": "Todos los contenidos (textos, logotipos, imágenes, documentos, etc.) son propiedad de Fort, Bertorini & Godoy Abogados S.A. Está prohibida su reproducción, distribución o uso sin autorización expresa.",
+        "seccion3": "3. Enlaces externos",
+        "texto4": "Este sitio puede contener enlaces a sitios de terceros. No nos responsabilizamos por su contenido ni políticas.",
+        "seccion4": "4. Modificaciones",
+        "texto5": "Fort, Bertorini & Godoy Abogados S.A. se reserva el derecho de modificar estos Términos en cualquier momento. Las actualizaciones serán publicadas en esta misma sección."
+    },
+    "legal":"Legal"
+}

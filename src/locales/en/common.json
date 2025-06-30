@@ -1,0 +1,87 @@
+{
+    "estudio": "About",
+    "abogados": "Lawyers",
+    "servicios": "Services",
+    "blog": "Blog",
+    "contacto": "Contact",
+    "slider1": {
+        "titulo": "47 Years of Strategic Legal Experience.",
+        "subtitulo": "Since 1977, we have provided legal counsel to national and international companies and institutions.",
+        "boton": "Read more"
+    },
+    "slider2": {
+        "titulo": "Tradition and Contemporary Focus.",
+        "subtitulo": "Ethics, prestige, and experience at the service of key legal decisions.",
+        "boton": "Read more"
+    },
+    "serviciosDestacados": {
+        "titulo": "FEATURED SERVICES",
+        "introTitulo": "Specialized legal advice with strategic vision.",
+        "introDescripcion": "We support you in the legal management of your business decisions, with a comprehensive approach and deep technical knowledge.",
+        "items": {
+            "corporativo": {
+                "titulo": "Corporate and Business Law",
+                "descripcion": "Company formation, contracts, and reorganizations."
+            },
+            "litigios": {
+                "titulo": "Litigation, Arbitration, and Disputes",
+                "descripcion": "Strategic legal defense before the Judiciary and arbitral tribunals."
+            },
+            "propiedadIntelectual": {
+                "titulo": "Intellectual Property and Data Protection",
+                "descripcion": "Protection of trademarks, intangible assets, and digital regulatory compliance."
+            },
+            "tributario": {
+                "titulo": "Tax Law and Fiscal Planning",
+                "descripcion": "Safe tax strategies and representation before SUNAT."
+            }
+        },
+        "verTodos": "See all services"
+    },
+    "contactoFormulario": {
+        "titulo": "WRITE TO US",
+        "descripcion": "If you would like to receive more information or have any questions, suggestions, or comments, please fill out the following form:",
+        "nombre": "Full name",
+        "correo": "Email address",
+        "asunto": "Subject",
+        "mensaje": "Message",
+        "acepto1": "I accept the",
+        "privacidad": "Privacy Policy",
+        "acepto2": "and authorize the processing of my personal data to be contacted by Fort, Bertorini & Godoy Abogados S.A.",
+        "terminos": "Terms and Conditions",
+        "boton": "Send message",
+        "visitanos": "VISIT US",
+        "direccionLabel": "Address:",
+        "telefonoLabel": "Phone:",
+        "siguenos": "Follow us:"
+    },
+    "modalPrivacidad": {
+        "titulo": "Privacy Policy",
+        "actualizacion": "Last updated: June 2025",
+        "texto1": "In compliance with Law No. 29733 – Personal Data Protection Law, we inform you that the personal data you provide through this website will be treated confidentially and securely.",
+        "seccion1": "1. Purpose of processing",
+        "texto2": "The information will be used exclusively to respond to inquiries, send requested information, or establish professional contact with Fort, Bertorini & Godoy Abogados S.A.",
+        "seccion2": "2. Data retention",
+        "texto3": "The data will be stored as long as the aforementioned purposes last, unless the data subject expressly requests its deletion.",
+        "seccion3": "3. Security",
+        "texto4": "We apply technical and organizational measures to protect your information from unauthorized access.",
+        "seccion4": "4. Data subject rights",
+        "texto5": "You may exercise your rights of access, rectification, cancellation, or opposition (ARCO) by sending a request to: contacto@fobego.com.pe",
+        "seccion5": "5. Consent",
+        "texto6": "By submitting a form, you accept this policy and give your consent to the processing of your data."
+    },
+    "modalTerminos": {
+        "titulo": "Terms and Conditions of Use",
+        "actualizacion": "Last updated: June 2025",
+        "texto1": "This website is operated by Fort, Bertorini & Godoy Abogados S.A. By accessing or using the site www.fobego.com.pe, you agree to these terms and conditions. If you do not agree, please refrain from using this site.",
+        "seccion1": "1. Site usage",
+        "texto2": "The content of this site is for informational purposes only. It does not constitute legal advice nor does it create an attorney-client relationship. For specific advice, please contact our firm directly.",
+        "seccion2": "2. Intellectual property",
+        "texto3": "All content (texts, logos, images, documents, etc.) is the property of Fort, Bertorini & Godoy Abogados S.A. Reproduction, distribution, or use without express authorization is prohibited.",
+        "seccion3": "3. External links",
+        "texto4": "This site may contain links to third-party sites. We are not responsible for their content or policies.",
+        "seccion4": "4. Modifications",
+        "texto5": "Fort, Bertorini & Godoy Abogados S.A. reserves the right to modify these Terms at any time. Updates will be published in this section."
+    },
+    "legal":"Legal"
+}

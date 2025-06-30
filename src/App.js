@@ -12,6 +12,8 @@ import { RenzoIngaMiranda } from './pages/abogados/perfilabogado/socios/RenzoIng
 import { Blog } from './pages/blog/blog';
 import { Actosinscritosmedianteplataformaidsunarp2021 } from './pages/blog/noticias/actosinscritosmedianteplataformaidsunarp2021/actosinscritosmedianteplataformaidsunarp2021';
 import { Contacto } from './pages/contacto/contacto';
+import './ i18n';
+
 
 function App() {
   return (
